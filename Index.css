@@ -1,0 +1,285 @@
+body {
+  max-width: 100vw;
+  margin: 0;
+  padding: 10px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(https://glasbans.com/assets/images/services/web-design-01.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: whitesmoke;
+  overflow-y: hidden;
+}
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly; 
+}
+ul li {
+  display: inline-block;
+  padding: 15px;
+  margin: 0px 15px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 25px;
+
+}
+ul {
+  box-sizing: border-box;
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+ul li a:hover {
+  padding-bottom: 3px;
+  border-bottom: 2px solid greenyellow;
+  color: whitesmoke;
+  font-size: 21px;
+}
+a {
+   text-decoration: none;
+  color: gold;
+  transform: scale(0.8);
+  transition: all 0.4s;
+}
+.logo {
+  font-size: 35px;
+  letter-spacing: 4px;
+  padding: 15px;
+  background: blue;
+  border-radius: 8px;
+  box-shadow: 5px 5px 5px red;
+}
+span {
+  color: yellow;
+  background-color: red;
+  border-radius: 5px;
+  padding: 8px;
+}
+img {
+  width: 300px;
+  height: 300px;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+h3,
+h4 {
+  font-size: 40px;
+}
+blockquote {
+  outline: 4px solid chartreuse;
+  width: 60%;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  transition: transform 0.3s;
+}
+.pic {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+cite {
+  color: yellow;
+  font-size: 25px;
+  padding: 5px;
+}
+.cv {
+  padding: 10px;
+  background-color: orange;
+  font-size: 25px;
+  border-radius: 10px;
+  color: black;
+}
+blockquote:hover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(https://images.pexels.com/photos/1229861/pexels-photo-1229861.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  outline: 4px solid red;
+  transform: scale(1.03);
+}
+.projects {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+img {
+  border-radius: 15px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.projects a {
+  padding: 5px;
+  margin: 15px;
+  outline: 3px solid rgb(0, 255, 13);
+  border-radius: 15px;
+  font-size: 25px;
+  transition: transform 0.3s;
+}
+.projects a:hover {
+  transform: scale(1.05);
+}
+.Contacts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 22px;
+  text-align: center;
+}
+h6,
+h6 span {
+  padding: 8px;
+  margin: 15px;
+}
+.down {
+  color: black;
+}
+footer {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: rgb(6, 163, 190);
+  border-radius: 10px;
+  outline: 2px solid orange;
+}
+footer img {
+  margin: 0px;
+  width: 80px;
+  height: 80px;
+}
+@media (max-width: 802px) {
+  h6 {
+    display: flex;
+    flex-direction: column;
+  }
+  h6 span {
+    margin: 10px;
+  }
+  nav ul li {
+    margin: 0px 8px;
+    padding: 5px;
+  }
+}
+@media (max-width: 700px) {
+  img {
+    width: 250px;
+    height: 250px;
+  }
+  .projects a {
+    padding: 0px;
+    margin: 0px;
+    font-size: 25px;
+  }
+  .logo {
+    padding: 5px;
+    font-size: 28px;
+    letter-spacing: 2px;
+  }
+  .logo span {
+    padding: 2px;
+  }
+  nav ul li {
+    font-size: 20px;
+    padding: 2px;
+    margin: 5x;
+  }
+  h6,
+  h6 span {
+    margin: 3px;
+    padding: 3px;
+  }
+  footer img {
+    width: 70px;
+    height: 70px;
+  }
+  footer {
+    padding: 0px;
+    height: 150px;
+  }
+}
+@media (max-width: 560px) {
+  .Contacts {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+  }
+  img {
+    width: 300px;
+    height: 300px;
+    margin: 0px;
+    padding: 0px;
+  }
+}
+@media (max-width: 482px) {  
+  h4 {
+    padding: 10px;
+  }
+  blockquote {
+    width: 80%;
+  }
+  .projects a,
+  img {
+    width: 100%;
+  }
+  .projects a:hover {
+    transform: scale(1.0001);
+  }
+  .logo {
+    width: 50%;
+    height: 40px;
+    text-align: center;
+  }
+  nav {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  ul {
+    display: flex;
+    padding: 0px;  
+    width: 100%;
+  }
+  .pic {
+    width: 150px;
+    height: 150px;
+  }
+  footer {
+    height: 100px;
+  }
+}
+#preloader{
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: black url(loader.gif) ;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 40%;
+  position: fixed;
+  z-index: 100;
+  margin: 0px;  
+}

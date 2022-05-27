@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY PORTFOLIO WEBSITE</title>
+    <script src="https://kit.fontawesome.com/7a69ab92ff.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="Index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div id="preloader"></div>          
+    <nav>
+        <div class="logo">Port<span>folio</span></div>
+        <ul>
+            <li><a href="#About Me">About</a></li>
+            <li><a href="#My Projects">Projects</a></li>
+            <li><a href="#Contact Me">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div id="About Me" class="about">            
+            <h4>Hello,<br> My name is <br><br><span>Isaac Ochieng Owuor</span></h4>                
+            <blockquote>
+                <img  class="pic"src="/IMG_20210113_133706_4.jpg" alt="">
+                A motivated front-end web developer with relevant skills in UI/UX design.I enjoy creating responsive web designs.I live in Kenya. 
+                <cite>A Web Developer</cite>
+            </blockquote>
+            <a class="cv" download="" href="/MY CV.pdf">Download My CV <i class="fa-solid fa-download down" ></i></a>
+        </div>   
+        <h3 id="My Projects">Here are Some of My Projects.</h3>
+        <div class="projects">            
+            <a target="blank" href="https://codepen.io/IsaacOchieng/full/mdqJJLp"><img src="/Documentation.PNG" alt="">Documentation</a>
+            <a target="blank" href="https://codepen.io/IsaacOchieng/full/mdqxVmW"><img src="/E-comerce.PNG" alt="">E-comerce</a>
+            <a target="blank" href="https://codepen.io/IsaacOchieng/full/bGaRozG"><img src="/Get Started_Form.PNG" alt="">Login Form</a>
+            <a target="blank" href="https://codepen.io/IsaacOchieng/full/wvPyqGy"><img src="/Odm.PNG" alt="">Odm Registration Form</a>
+            <a target="blank" href="https://codepen.io/IsaacOchieng/full/rNGogPx"><img src="/Portfolio.PNG" alt="">Portfolio</a>
+            <a target="blank" href="https://codepen.io/IsaacOchieng/full/MWOORJW"><img src="/Timetable.PNG" alt="">Timetable</a>
+        </div>
+        <div style="display: none;">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/-ObdvMkCKws" title="YouTube video player"
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe><iframe width="560" height="315" src="https://www.youtube.com/embed/-ObdvMkCKws" title="YouTube video player"
+                    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe><iframe width="560" height="315" src="https://www.youtube.com/embed/-ObdvMkCKws" title="YouTube video player"
+                        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe><iframe width="560" height="315" src="https://www.youtube.com/embed/-ObdvMkCKws" title="YouTube video player"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+        </div>
+        <h3>Contact Me</h3>
+        <div id="Contact Me" class="Contacts">
+            <h6>Mobile Number: <span>+254758515601</span></h6>
+            <h6>WhatsApp Number: <span>+254796853507</span></h6>
+            <h6>Email: <span>isaac.ochieng2000@gmail.com</span></h6>            
+        </div>
+    </main>   
+    <footer>
+        <a target="blank" href="https://github.com/Ochieng2000"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSm2Ly_d9mT9hhaso4o5QhTyJMdS88f7DO9dXOV7i_TvkZnU2VoFCT3jagHpkPfNGUU64I&usqp=CAU" alt=""></a>
+        <a target="blank" href="https://linkedin.com/in/isaac-ochieng-641424235"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/640px-LinkedIn_logo_initials.png" alt=""></a>
+        <a target="blank" href="https://codepen.io/IsaacOchieng/pens/public?cursor=ZD0wJm89MSZwPTEmdj01ODU3MTcxNw=="><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQp6xo-P5NURWQBpumZAoj2BLs5l2IqFSA1Og&usqp=CAU" alt=""></a>
+        <a target="blank" href="https://www.freecodecamp.org/Isaac-Ochieng-Owuor"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTa19Icwe3uQWVjnmEv5Ld5zYwkuwzgpjk9_A&usqp=CAU" alt=""></a>   
+    </footer>  
+    
+    <script >
+        var loader = document.querySelector('#preloader');
+        window.addEventListener('load', function(){
+            loader.style.display = "none";
+            document.querySelector('body').style.overflow = "auto";
+        });
+    </script>
+</body>
+</html>
